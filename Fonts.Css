@@ -1,0 +1,32 @@
+:root {
+  --bodyFonts: 'Josefin Sans', sans-serif;
+  --pinkColor: #5557F3;
+  --titleColor: #000000;
+  --bodyColor: #666666;
+  --lightblueColor: #8D99FF;
+  --whiteColor: #ffffff;
+  --fontSize: 16px;
+  --transition: .5s;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif !important;
+}
+a,
+a:hover {
+  text-decoration: none !important;
+}
+img {
+  max-width: 100%;
+}
+hr {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.pt-100 { padding-top: 100px; }
+.pt-45 { padding-top: 45px; }
+#not_found {
+  text-align: center;
+  color: red;
+}
